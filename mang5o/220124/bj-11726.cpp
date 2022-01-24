@@ -15,7 +15,7 @@ int main(){
     // int factorial_matrix[now_width+1];
     // factorial_matrix[0] = 1;
     // for(int i = 1; i<now_width+1; i++){
-    //     factorial_matrix[i] = (factorial_matrix[i-1] * i)%10007;
+    //     factorial_matrix[i] = (factorial_matrix[i-1] * i);
     // }
     // // if width is N, We should make N with sum of 1&2
     // int num_count = 0;
