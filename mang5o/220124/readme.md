@@ -1,8 +1,8 @@
 
 # Solving
 
-## Åä¸¶Åä
-### ¹®Á¦Ç®ÀÌ
+## í† ë§ˆí† 
+### ë¬¸ì œí’€ì´
 ```c
 bool now_visited[now_height+2][now_width+2];
 for(int y = 0; y < now_height+2; y++){
@@ -25,9 +25,9 @@ for(int y = 0; y < now_height+2; y++){
 }
 ```
 
-`queue<pair<int,int>> tomato_queue;` Queue±â´ÉÀ» »ç¿ëÇØ  ÀÍÀº Åä¸¶ÅäÀÇ ¸ñ·ÏÀ» °¡Á®¿Â´Ù. 0ÀÌ¸é visited°¡ falseÀÌ°í, 1ÀÌ¸é visitied°¡ falseÀÎ °Í°ú µ¿½Ã¿¡ Queue¿¡ ³Ö°í, -1ÀÌ¸é visited¸¦ true·Î ÇÑ´Ù. (-1Àº Åä¸¶Åä°¡ ¾ø¾î¼­ ½Å°æ¾µ ÇÊ¿ä ¾øÀ½)
+`queue<pair<int,int>> tomato_queue;` Queueê¸°ëŠ¥ì„ ì‚¬ìš©í•´  ìµì€ í† ë§ˆí† ì˜ ëª©ë¡ì„ ê°€ì ¸ì˜¨ë‹¤. 0ì´ë©´ visitedê°€ falseì´ê³ , 1ì´ë©´ visitiedê°€ falseì¸ ê²ƒê³¼ ë™ì‹œì— Queueì— ë„£ê³ , -1ì´ë©´ visitedë¥¼ trueë¡œ í•œë‹¤. (-1ì€ í† ë§ˆí† ê°€ ì—†ì–´ì„œ ì‹ ê²½ì“¸ í•„ìš” ì—†ìŒ)
 
-ÀÍÀº Åä¸¶ÅäÀÎ -1À» ±âÁØÀ¸·Î BFS¸¦ ÁøÇàÇÑ´Ù. ´Ù¸¸ ¼­·ÎÀÇ stage¸¦ ³ª´©¾î¾ß ÇÑ´Ù.
+ìµì€ í† ë§ˆí† ì¸ -1ì„ ê¸°ì¤€ìœ¼ë¡œ BFSë¥¼ ì§„í–‰í•œë‹¤. ë‹¤ë§Œ ì„œë¡œì˜ stageë¥¼ ë‚˜ëˆ„ì–´ì•¼ í•œë‹¤.
 
 ```c
 while(tomato_queue.size()!=0){
@@ -47,15 +47,15 @@ while(tomato_queue.size()!=0){
     now_days++;
 }
 ```
-queue°¡ ºô ¶§±îÁö ÁøÇàÇÏ´Â °ÍÀº ¸ÂÀ¸³ª, ÇÑ ½ºÅÇ´ç queue°¡ ¸î °³ µé¾î¿À´ÂÁö ÆÄ¾ÇÇÏ¸ç ½ºÅÇÀ» ÁøÇà½ÃÅ²´Ù.
-ÀüÃ¼ÀûÀ¸·Î ¸ðµÎ ÀÍ¾úÀ» ¶§ÀÇ ½ºÅÇÀ» Ãâ·ÂÇÑ´Ù.
+queueê°€ ë¹Œ ë•Œê¹Œì§€ ì§„í–‰í•˜ëŠ” ê²ƒì€ ë§žìœ¼ë‚˜, í•œ ìŠ¤íƒ­ë‹¹ queueê°€ ëª‡ ê°œ ë“¤ì–´ì˜¤ëŠ”ì§€ íŒŒì•…í•˜ë©° ìŠ¤íƒ­ì„ ì§„í–‰ì‹œí‚¨ë‹¤.
+ì „ì²´ì ìœ¼ë¡œ ëª¨ë‘ ìµì—ˆì„ ë•Œì˜ ìŠ¤íƒ­ì„ ì¶œë ¥í•œë‹¤.
 
-### ÀÇ°ß
-Ã³À½¿¡´Â ÀÌÀüÀÇ ºù»ê ¹®Á¦¿¡¼­ ºùÇÏ°¡ ³ìµíÀÌ ¸ðµç `[y][x]` °ªÀ» °¡Áö°í »ç¹æÀ» ºñ±³ÇÏ¸ç ÁøÇàÇÏ¿´´Âµ¥, timeoutÀÌ °è¼Ó ¹ß»ýÇÏ¿© inputÀÌ `inputÇà·ÄÀº Å©Áö¸¸ Åä¸¶Åä°¡ Àû°Ô ÀÔ·ÂµÇ´Â °Í`ÀÌ¶ó ¿¹»óÀ» ÇÏ¿´°í, Çà·ÄÀÇ Å©±â¿¡ ºñÇØ ºñ±³ÇÒ °ÍÀÌ ÀûÀ» ¶§¿¡ DFS,BFS¸¦ »ç¿ëÇÏ¹Ç·Î ½ºÅÇÀ» °è»êÇÏ±â ÆíÇÏ°Ô BFS¸¦ »ç¿ëÇÏ¿´´Ù.
+### ì˜ê²¬
+ì²˜ìŒì—ëŠ” ì´ì „ì˜ ë¹™ì‚° ë¬¸ì œì—ì„œ ë¹™í•˜ê°€ ë…¹ë“¯ì´ ëª¨ë“  `[y][x]` ê°’ì„ ê°€ì§€ê³  ì‚¬ë°©ì„ ë¹„êµí•˜ë©° ì§„í–‰í•˜ì˜€ëŠ”ë°, timeoutì´ ê³„ì† ë°œìƒí•˜ì—¬ inputì´ `inputí–‰ë ¬ì€ í¬ì§€ë§Œ í† ë§ˆí† ê°€ ì ê²Œ ìž…ë ¥ë˜ëŠ” ê²ƒ`ì´ë¼ ì˜ˆìƒì„ í•˜ì˜€ê³ , í–‰ë ¬ì˜ í¬ê¸°ì— ë¹„í•´ ë¹„êµí•  ê²ƒì´ ì ì„ ë•Œì— DFS,BFSë¥¼ ì‚¬ìš©í•˜ë¯€ë¡œ ìŠ¤íƒ­ì„ ê³„ì‚°í•˜ê¸° íŽ¸í•˜ê²Œ BFSë¥¼ ì‚¬ìš©í•˜ì˜€ë‹¤.
 
 
-## ¾È³ç
-### ¹®Á¦Ç®ÀÌ
+## ì•ˆë…•
+### ë¬¸ì œí’€ì´
 ```c
 bool now_binary[people];
 long long now_count;
@@ -89,13 +89,13 @@ for(long long i = 0; i<pow(2,people); i++){
     }
 }
 ```
-°£´ÜÇÑ Greedy ¾Ë°í¸®ÁòÀÌ¾úÀ¸³ª, Greedy setÀ» ¸¸µé¾î ³»´Â µ¥¿¡ ÀÌÁø¹ýÀÇ ¿ø¸®¸¦ »ç¿ëÇÏ¿´´Ù. Æ¯Á¤ »ç¶÷À» ¸¸³ª°Å³ª, ¸¸³ªÁö ¾Ê´Â µÎ °¡ÁöÀÇ °æ¿ìÀÇ ¼ö°¡ ¸ðµÎ µ¿ÀÏÇÏ¹Ç·Î, `i<pow(2,people)` ¸¸Å­ÀÇ °æ¿ìÀÇ ¼ö°¡ Á¸ÀçÇÒ °ÍÀÌ°í, ÀÌ i¸¦ ÀÌÁø¹ýÀ¸·Î ³ªÅ¸³»º¸¸é »ç¶÷ ÇÏ³ªÇÏ³ª°¡ ÀÚ¸´¼ö ÇÏ³ª°¡ µÇ¹Ç·Î °è»êÇÏ±â ½¬¿öÁø´Ù.
+ê°„ë‹¨í•œ Greedy ì•Œê³ ë¦¬ì¦˜ì´ì—ˆìœ¼ë‚˜, Greedy setì„ ë§Œë“¤ì–´ ë‚´ëŠ” ë°ì— ì´ì§„ë²•ì˜ ì›ë¦¬ë¥¼ ì‚¬ìš©í•˜ì˜€ë‹¤. íŠ¹ì • ì‚¬ëžŒì„ ë§Œë‚˜ê±°ë‚˜, ë§Œë‚˜ì§€ ì•ŠëŠ” ë‘ ê°€ì§€ì˜ ê²½ìš°ì˜ ìˆ˜ê°€ ëª¨ë‘ ë™ì¼í•˜ë¯€ë¡œ, `i<pow(2,people)` ë§Œí¼ì˜ ê²½ìš°ì˜ ìˆ˜ê°€ ì¡´ìž¬í•  ê²ƒì´ê³ , ì´ ië¥¼ ì´ì§„ë²•ìœ¼ë¡œ ë‚˜íƒ€ë‚´ë³´ë©´ ì‚¬ëžŒ í•˜ë‚˜í•˜ë‚˜ê°€ ìžë¦¿ìˆ˜ í•˜ë‚˜ê°€ ë˜ë¯€ë¡œ ê³„ì‚°í•˜ê¸° ì‰¬ì›Œì§„ë‹¤.
 
-### ÀÇ°ß
-°£´ÜÇÑ Greedy ¾Ë°í¸®ÁòÀÌÁö¸¸, °¡´ÉÇÑ °æ¿ìÀÇ ¼ö´Â ÀÌÁø¹ýÀ¸·Î ³ªÅ¸³»±â¸¸ ÇÏ¿´À¸¸ç, ÇØ´ç °æ¿ì¿¡ ´ëÇØ¼­ Ã¼·ÂÀÌ 0ÀÌ µÇ¸é ±× °æ¿ìÀÇ È®ÀÎÀº ±× Áï½Ã ±×¸¸µÎµµ·Ï ¼³Á¤ÇÏ¿´´Ù. ±×·¸Áö ¾ÊÀ¸¸é Ã¼·ÂÀÌ 0ÀÌ µÇ´Â °æ¿ìÀÏ Áö¶óµµ ¿¬»êÀÌ ¸ðµÎ ÁøÇàµÇ¹Ç·Î ¸®¼Ò½º ¼Ò¸ð°¡ ¹ß»ýÇÒ ¼ö ÀÖ´Ù.
+### ì˜ê²¬
+ê°„ë‹¨í•œ Greedy ì•Œê³ ë¦¬ì¦˜ì´ì§€ë§Œ, ê°€ëŠ¥í•œ ê²½ìš°ì˜ ìˆ˜ëŠ” ì´ì§„ë²•ìœ¼ë¡œ ë‚˜íƒ€ë‚´ê¸°ë§Œ í•˜ì˜€ìœ¼ë©°, í•´ë‹¹ ê²½ìš°ì— ëŒ€í•´ì„œ ì²´ë ¥ì´ 0ì´ ë˜ë©´ ê·¸ ê²½ìš°ì˜ í™•ì¸ì€ ê·¸ ì¦‰ì‹œ ê·¸ë§Œë‘ë„ë¡ ì„¤ì •í•˜ì˜€ë‹¤. ê·¸ë ‡ì§€ ì•Šìœ¼ë©´ ì²´ë ¥ì´ 0ì´ ë˜ëŠ” ê²½ìš°ì¼ ì§€ë¼ë„ ì—°ì‚°ì´ ëª¨ë‘ ì§„í–‰ë˜ë¯€ë¡œ ë¦¬ì†ŒìŠ¤ ì†Œëª¨ê°€ ë°œìƒí•  ìˆ˜ ìžˆë‹¤.
 
 ## H-index
-### ¹®Á¦Ç®ÀÌ
+### ë¬¸ì œí’€ì´
 ```c
 int solution(vector<int> citations) { // committed function
     sort(citations.begin(), citations.end(), compare_func);
@@ -115,12 +115,12 @@ int solution(vector<int> citations) { // committed function
     return now_h_index;
 }
 ```
-vector·Î µé¾î¿Â ³í¹®µéÀÇ ÀÎ¿ë ¼ö¸¦ ±âÁØÀ¸·Î ³»¸²Â÷¼ø Á¤·ÄÀ» ÇÑ µÚ, h¸¦ °è»êÇÏ¿´´Ù.
-### ÀÇ°ß
-¹®Á¦´Â Á¤¸» ½¬¿î ÆíÀÌ¾úÀ¸³ª, ¹®Á¦ ÀÚÃ¼¸¦ ÀÌÇØÇÏ´Âµ¥¿¡ ¼³¸íÀÌ ¾Ö¸ÅÇÏ¿© ½Ã°£ÀÌ Á¶±Ý °É·È´Ù.
+vectorë¡œ ë“¤ì–´ì˜¨ ë…¼ë¬¸ë“¤ì˜ ì¸ìš© ìˆ˜ë¥¼ ê¸°ì¤€ìœ¼ë¡œ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬ì„ í•œ ë’¤, hë¥¼ ê³„ì‚°í•˜ì˜€ë‹¤.
+### ì˜ê²¬
+ë¬¸ì œëŠ” ì •ë§ ì‰¬ìš´ íŽ¸ì´ì—ˆìœ¼ë‚˜, ë¬¸ì œ ìžì²´ë¥¼ ì´í•´í•˜ëŠ”ë°ì— ì„¤ëª…ì´ ì• ë§¤í•˜ì—¬ ì‹œê°„ì´ ì¡°ê¸ˆ ê±¸ë ¸ë‹¤.
 
-## ¼¶ ¿¬°áÇÏ±â
-### ¹®Á¦Ç®ÀÌ
+## ì„¬ ì—°ê²°í•˜ê¸°
+### ë¬¸ì œí’€ì´
 ```c
 int solution(int n, vector<vector<int>> costs) {
     sort(costs.begin(), costs.end(), compare_func);
@@ -165,23 +165,23 @@ int solution(int n, vector<vector<int>> costs) {
     return now_cost;
 }
 ```
-°£¼±ÀÇ ±æÀÌ¿¡ ´ëÇØ¼­ sortingÀ» ÁøÇàÇÑ µÚ¿¡ Kruskal ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ¿´´Ù.
+ê°„ì„ ì˜ ê¸¸ì´ì— ëŒ€í•´ì„œ sortingì„ ì§„í–‰í•œ ë’¤ì— Kruskal ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•˜ì˜€ë‹¤.
 
-### ÀÇ°ß
-KruskalÀÇ ÇÁ·Î¼¼½º´Â ¾Æ·¡¿Í °°´Ù.
+### ì˜ê²¬
+Kruskalì˜ í”„ë¡œì„¸ìŠ¤ëŠ” ì•„ëž˜ì™€ ê°™ë‹¤.
 ```
-1. °¡Àå ÂªÀº °£¼±À» È°¼ºÈ­ÇÑ´Ù.
-2. ÂªÀº °£¼±ºÎÅÍ ¼ø¼­´ë·Î "cycle"À» Çü¼ºÇÏ´ÂÁö È®ÀÎÇÏ°í, Çü¼ºÇÏÁö ¾Ê´Â´Ù¸é ÇØ´ç °£¼±À» Ãß°¡ÇÑ´Ù.
-3. ¸ðµç °£¼±¿¡ ´ëÇØ ÇØ´ç ÇÁ·Î¼¼½º¸¦ ÁøÇàÇÏ¸é, ¹®Á¦¿¡¼­ ÁØ Á¶°ÇÃ³·³ ¿¬°áµÇÁö ¾ÊÀº ¼¶ÀÌ ¾øÀ» °ÍÀÌ´Ù.
+1. ê°€ìž¥ ì§§ì€ ê°„ì„ ì„ í™œì„±í™”í•œë‹¤.
+2. ì§§ì€ ê°„ì„ ë¶€í„° ìˆœì„œëŒ€ë¡œ "cycle"ì„ í˜•ì„±í•˜ëŠ”ì§€ í™•ì¸í•˜ê³ , í˜•ì„±í•˜ì§€ ì•ŠëŠ”ë‹¤ë©´ í•´ë‹¹ ê°„ì„ ì„ ì¶”ê°€í•œë‹¤.
+3. ëª¨ë“  ê°„ì„ ì— ëŒ€í•´ í•´ë‹¹ í”„ë¡œì„¸ìŠ¤ë¥¼ ì§„í–‰í•˜ë©´, ë¬¸ì œì—ì„œ ì¤€ ì¡°ê±´ì²˜ëŸ¼ ì—°ê²°ë˜ì§€ ì•Šì€ ì„¬ì´ ì—†ì„ ê²ƒì´ë‹¤.
 ```
-KruskalÀÇ ÇÙ½É ³»¿ëÀº ¾Æ·¡¿Í °°´Ù.
+Kruskalì˜ í•µì‹¬ ë‚´ìš©ì€ ì•„ëž˜ì™€ ê°™ë‹¤.
 ```
-1. A¿¡¼­ ´Ù¸¥ °÷À» °ÅÄ£ µÚ B¸¦ °¡µµ A¿Í B´Â ¿¬°áµÇ¾î ÀÖ´Ù.
-2. °£¼±ÀÇ Ãß°¡Á¶°ÇÀº "A¿Í B°¡ ¿¬°áµÇÁö ¾Ê¾ÒÀ» ¶§" ÀÌ´Ù.
-3. A¿Í B°¡ ¿¬°áµÉ ¶§¿£ A¿¡ ¿¬°áµÈ ¸ðµç ¼¶Àº B¿¡ ¿¬°áµÈ ¸ðµç ¼¶°ú ¿¬°áµÇ¸ç, ¿ªµµ ÁøÇàÇÑ´Ù.
+1. Aì—ì„œ ë‹¤ë¥¸ ê³³ì„ ê±°ì¹œ ë’¤ Bë¥¼ ê°€ë„ Aì™€ BëŠ” ì—°ê²°ë˜ì–´ ìžˆë‹¤.
+2. ê°„ì„ ì˜ ì¶”ê°€ì¡°ê±´ì€ "Aì™€ Bê°€ ì—°ê²°ë˜ì§€ ì•Šì•˜ì„ ë•Œ" ì´ë‹¤.
+3. Aì™€ Bê°€ ì—°ê²°ë  ë•Œì—” Aì— ì—°ê²°ëœ ëª¨ë“  ì„¬ì€ Bì— ì—°ê²°ëœ ëª¨ë“  ì„¬ê³¼ ì—°ê²°ë˜ë©°, ì—­ë„ ì§„í–‰í•œë‹¤.
 ```
 
-Ã³À½ ±¸ÇöÇÒ ¶§¿£ A¿Í B¸¦ ¿¬°áÇÏ´Â ¼ø°£, A¿Í ¿¬°áµÈ ¸ðµç ¼¶À» B¿Í ¿¬°áÇÏ°í B¿Í ¿¬°áµÈ ¸ðµç ¼¶À» A¿Í ¿¬°áÇÏ±â¸¸ ÇÏ°í ³¡³Â´Ù.
+ì²˜ìŒ êµ¬í˜„í•  ë•Œì—” Aì™€ Bë¥¼ ì—°ê²°í•˜ëŠ” ìˆœê°„, Aì™€ ì—°ê²°ëœ ëª¨ë“  ì„¬ì„ Bì™€ ì—°ê²°í•˜ê³  Bì™€ ì—°ê²°ëœ ëª¨ë“  ì„¬ì„ Aì™€ ì—°ê²°í•˜ê¸°ë§Œ í•˜ê³  ëëƒˆë‹¤.
 ```c
 for(int j = 0; j < n; j++){
     if(now_can_move[costs[i][0]][j]){
@@ -194,7 +194,7 @@ for(int j = 0; j < n; j++){
     }
 }
 ```
-¿©±â¼­ ¹®Á¦´Â ÀÌ¹Ì B¿¡ ¿¬°áµÇ¾îÀÖ´Â ¼¶µéÀÌ ÀÖÀ» ¼ö ÀÖ±â ¶§¹®¿¡ N:NÀÇ ´ëÀÀÀ» ÇÑ´Ù´Â °ÍÀÌ´Ù. µû¶ó¼­ ¾Æ·¡¿Í °°ÀÌ º¯°æÇÏ¿´´Ù.
+ì—¬ê¸°ì„œ ë¬¸ì œëŠ” ì´ë¯¸ Bì— ì—°ê²°ë˜ì–´ìžˆëŠ” ì„¬ë“¤ì´ ìžˆì„ ìˆ˜ ìžˆê¸° ë•Œë¬¸ì— N:Nì˜ ëŒ€ì‘ì„ í•œë‹¤ëŠ” ê²ƒì´ë‹¤. ë”°ë¼ì„œ ì•„ëž˜ì™€ ê°™ì´ ë³€ê²½í•˜ì˜€ë‹¤.
 
 ```c
 vector<int> with_i0, with_i1;
@@ -222,8 +222,8 @@ for(int j = 0; j < n; j++){
 }
 ```
 
-## 2*n Å¸ÀÏ¸µ
-### ¹®Á¦Ç®ÀÌ
+## 2*n íƒ€ì¼ë§
+### ë¬¸ì œí’€ì´
 ```c
 int main(){
     ios_base::sync_with_stdio(0);
@@ -245,19 +245,22 @@ int main(){
     cout<<num_count%10007;
 }
 ```
-ÇÇº¸³ªÄ¡ ¼ö¿­ ¹®Á¦ÀÌ´Ù. ¸¸¾à °¡·Î°¡ n°³ÀÇ Å¸ÀÏ¿¡ ³õ´Â´Ù°í ÇÏ¸é, (n-1)°³ÀÇ Å¸ÀÏ ¸Ç ¿ÞÂÊ¿¡ Å¸ÀÏ ÇÏ³ª¸¦ ¼¼¿ö³õ´Â ¸ð½À°ú,  (n-2)°³ÀÇ Å¸ÀÏ ¸Ç ¿ÞÂÊ¿¡ Å¸ÀÏ µÎ °³¸¦ ´¯Çô³õ´Â ¸ð½ÀÀÇ °æ¿ìÀÇ ¼ö°¡ »ý±â¹Ç·Î `num(n) = num(n-1) + num(n-2)`ÀÌ´Ù.
+í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ ë¬¸ì œì´ë‹¤. ë§Œì•½ ê°€ë¡œê°€ nê°œì˜ íƒ€ì¼ì— ë†“ëŠ”ë‹¤ê³  í•˜ë©´, (n-1)ê°œì˜ íƒ€ì¼ ë§¨ ì™¼ìª½ì— íƒ€ì¼ í•˜ë‚˜ë¥¼ ì„¸ì›Œë†“ëŠ” ëª¨ìŠµê³¼,  (n-2)ê°œì˜ íƒ€ì¼ ë§¨ ì™¼ìª½ì— íƒ€ì¼ ë‘ ê°œë¥¼ ëˆ•í˜€ë†“ëŠ” ëª¨ìŠµì˜ ê²½ìš°ì˜ ìˆ˜ê°€ ìƒê¸°ë¯€ë¡œ `num(n) = num(n-1) + num(n-2)`ì´ë‹¤.
 
-¹®Á¦ Ç®ÀÌ ¸¶Áö¸·¿¡¸¸ 10007·Î modular ¿¬»êÀ» ÁøÇàÇÏ¿´´Âµ¥ ´äÀÌ °è¼Ó Æ²¸®´Ù°í ³ª¿Í »ý°¢À» ÇØº¸¾Ò´Âµ¥, num_matrix¸¦ ±¸ÇÒ ¶§¿¡µµ overflow°¡ ³¯ ¼ö ÀÖ´Ù°í º¸¿´´Ù. µû¶ó¼­ °¢ ¿ø¼Ò¸¦ °è»êÇÒ ¶§¿¡µµ 10007·Î ³ª´©¾î¼­ °è»êÇÏ¿© Á¤´äÀÌ µµÃâµÇ¾ú´Ù.
+ë¬¸ì œ í’€ì´ ë§ˆì§€ë§‰ì—ë§Œ 10007ë¡œ modular ì—°ì‚°ì„ ì§„í–‰í•˜ì˜€ëŠ”ë° ë‹µì´ ê³„ì† í‹€ë¦¬ë‹¤ê³  ë‚˜ì™€ ìƒê°ì„ í•´ë³´ì•˜ëŠ”ë°, num_matrixë¥¼ êµ¬í•  ë•Œì—ë„ overflowê°€ ë‚  ìˆ˜ ìžˆë‹¤ê³  ë³´ì˜€ë‹¤. ë”°ë¼ì„œ ê° ì›ì†Œë¥¼ ê³„ì‚°í•  ë•Œì—ë„ 10007ë¡œ ë‚˜ëˆ„ì–´ì„œ ê³„ì‚°í•˜ì—¬ ì •ë‹µì´ ë„ì¶œë˜ì—ˆë‹¤.
 
-### ÀÇ°ß
-DP(ÇÇº¸³ªÄ¡ ¼ö¿­)ÀÇ Á¢±Ù¹ýµµ ÀÖÀ¸³ª, ¾Æ·¡¿Í °°ÀÌ »ý°¢À» Ãß°¡·Î Ç®¾îº¸¾Ò´Ù.
+### ì˜ê²¬
+DP(í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´)ì˜ ì ‘ê·¼ë²•ë„ ìžˆìœ¼ë‚˜, ì•„ëž˜ì™€ ê°™ì´ ìƒê°ì„ ì¶”ê°€ë¡œ í’€ì–´ë³´ì•˜ë‹¤.
 
-![figure1](https://github.com/Algo-Inha/Algo-inha/tree/main/mang5o/220124/static/figure1.png)
-¼¼·Î·Î »ý°¢ÇÏÁö ¾Ê°í °¡·Î·Î¸¸ »ý°¢ÇÑ´Ù¸é, Å¸ÀÏ ¹­À½Àº °¡·Î°¡ 1ÀÎ ÆÐÅÏ°ú °¡·Î°¡ 2ÀÎ ÆÐÅÏ¸¸ Á¸ÀçÇÑ´Ù. ÀÌ´Â °á±¹ ¾Æ·¡¿Í °°ÀÌ nÀ» 1°ú 2·Î¸¸ ±¸¼ºÇÏ´Â ½ÄÀÌ´Ù.
-![figure2](https://github.com/Algo-Inha/Algo-inha/tree/main/mang5o/220124/static/figure2.png)
+![figure1](https://raw.githubusercontent.com/Algo-Inha/Algo-inha/main/mang5o/220124/static/figure1.png)
 
-![figure3](https://github.com/Algo-Inha/Algo-inha/tree/main/mang5o/220124/static/figure3.png)
-¼öÇÐÀûÀ¸·Î °è»êÇÏ¸é °æ¿ìÀÇ ¼ö°¡ ÀÌ·¸°Ô ³ª¿À°í, °è»ê ½Ä¿¡¼­ factorialÀÌ ¸Å¿ì ¸¹ÀÌ µîÀåÇÏ¹Ç·Î 1ºÎÅÍÀÇ ÆÑÅä¸®¾ó °ªÀ» Çà·Ä¿¡ ÀúÀåÇØ ³õ°í ÄÚµå¸¦ ¾Æ·¡¿Í °°ÀÌ ±¸ÇöÇÏ¿´´Ù.
+ì„¸ë¡œë¡œ ìƒê°í•˜ì§€ ì•Šê³  ê°€ë¡œë¡œë§Œ ìƒê°í•œë‹¤ë©´, íƒ€ì¼ ë¬¶ìŒì€ ê°€ë¡œê°€ 1ì¸ íŒ¨í„´ê³¼ ê°€ë¡œê°€ 2ì¸ íŒ¨í„´ë§Œ ì¡´ìž¬í•œë‹¤. ì´ëŠ” ê²°êµ­ ì•„ëž˜ì™€ ê°™ì´ nì„ 1ê³¼ 2ë¡œë§Œ êµ¬ì„±í•˜ëŠ” ì‹ì´ë‹¤.
+
+![figure2](https://raw.githubusercontent.com/Algo-Inha/Algo-inha/main/mang5o/220124/static/figure2.png)
+
+![figure3](https://raw.githubusercontent.com/Algo-Inha/Algo-inha/main/mang5o/220124/static/figure3.png)
+
+ìˆ˜í•™ì ìœ¼ë¡œ ê³„ì‚°í•˜ë©´ ê²½ìš°ì˜ ìˆ˜ê°€ ì´ë ‡ê²Œ ë‚˜ì˜¤ê³ , ê³„ì‚° ì‹ì—ì„œ factorialì´ ë§¤ìš° ë§Žì´ ë“±ìž¥í•˜ë¯€ë¡œ 1ë¶€í„°ì˜ íŒ©í† ë¦¬ì–¼ ê°’ì„ í–‰ë ¬ì— ì €ìž¥í•´ ë†“ê³  ì½”ë“œë¥¼ ì•„ëž˜ì™€ ê°™ì´ êµ¬í˜„í•˜ì˜€ë‹¤.
 
 ```c
 int factorial_matrix[now_width+1];
