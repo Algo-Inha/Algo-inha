@@ -11,7 +11,8 @@
 + [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 + [촌수계산](https://www.acmicpc.net/problem/2644)
 + [스타트와 링크](https://www.acmicpc.net/problem/14889)
-
+<details>
+  <summary>이전 주 문제들!</summary>
 ### 220131
 + [뱀](https://www.acmicpc.net/problem/3190)
 + [아기 상어](https://www.acmicpc.net/problem/16236)
@@ -29,6 +30,7 @@
 ### 220117
 + [빙산](https://www.acmicpc.net/problem/2573)
 + [나누기](https://www.acmicpc.net/problem/21757)
+</details>
 </details>
 
 # Algorithm
