@@ -1,6 +1,9 @@
 알고리즘 문제 풀이 레포입니다
 
 # 문제
+<details>
+  <summary>Click to expand!</summary>
+  
 ### 220207
 + [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
 + [불!](https://www.acmicpc.net/problem/4179)
@@ -26,6 +29,7 @@
 ### 220117
 + [빙산](https://www.acmicpc.net/problem/2573)
 + [나누기](https://www.acmicpc.net/problem/21757)
+</details>
 
 # Algorithm
 
