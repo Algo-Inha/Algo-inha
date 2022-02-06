@@ -1,4 +1,5 @@
 //https://www.acmicpc.net/problem/4179
+//บา!
 #include<iostream>
 #include<vector>
 #include<algorithm>
