@@ -35,3 +35,49 @@ path[path.length() - 1] -= 1;
 
 # 스타트와 링크
 ## BJ 14889
+
++ `DFS`
+
+```c++
+void DFS(int x, int y)
+{
+	if (x == N / 2)
+	{
+		int start=0, link=0;
+
+		for (int i = 1; i <= N; i++)
+		{
+			for (int j = 1; j <= N; j++)
+			{
+				if (check[i] == true && check[j] == true)
+					start += arr[i][j];
+				if (check[i] == false && check[j] == false)
+					link += arr[i][j];
+			}
+		}
+		int temp = abs(start - link);
+		if (ans > temp)
+			ans = temp;
+
+		return;
+	}
+
+	for (int i = y; i < N; i++)
+	{
+		check[i] = true;
+		DFS(x + 1, i + 1);
+		check[i] = false;
+	}
+}
+```
+
+> - 탐색 문제인것까지는 파악을 했는데, 작년에 알설 수업에서 배운게 하나도 기억이 나지 않아서 난감했다.
+> 최대한 풀이를 안보고 작성해보려고 강의노트를 다시 보면서 기억을 조금씩 되살리려고 노력해봤다.
+> - 정작 DFS 함수보다는 for문에서 계속 실수가 있었긴 했지만 그래도 나름 풀이는 안보고 해결할 수 있었다.
+
+# 촌수계산
+## BJ 2644
+
+```c++
+
+```
