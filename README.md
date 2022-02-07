@@ -4,6 +4,17 @@
 <details>
   <summary>Click to expand!</summary>
   
+  ### 220214
+  + [동전 바꿔주기](https://www.acmicpc.net/problem/2624)  
+  + [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)  
+  + [치킨 배달](https://www.acmicpc.net/problem/15686)  
+  + [핀볼 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)  
+  + [시험 감독](https://www.acmicpc.net/problem/13458)  
+  + [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)  
+  
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 220207
 + [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
 + [불!](https://www.acmicpc.net/problem/4179)
@@ -11,9 +22,6 @@
 + [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 + [촌수계산](https://www.acmicpc.net/problem/2644)
 + [스타트와 링크](https://www.acmicpc.net/problem/14889)
-
-<details>
-  <summary>이전 주 문제들!</summary>
   
 ### 220131
 + [뱀](https://www.acmicpc.net/problem/3190)
