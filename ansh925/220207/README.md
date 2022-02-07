@@ -110,7 +110,7 @@ void BFS(int x)
 
 > - 앞선 스타트와 링크 문제를 풀면서 탐색을 다시 복습하는 시간을 가졌어서 이 문제도 탐색을 이용해야된다고 생각했다.
 > - 최원익 교수님의 제자답게 패드에 직접 손코딩을 하고 하나씩 손디버깅을 해보면서 BFS 함수를 작성했다.
-> - 시간은 많이 걸리지만 코딩 초보에게는 직접 손으로 queue와 배열를 써가면서 차근차근 디버깅 해보는게 코드 자체를 제대로 이해하는데는 좋은 것 같다. 그래도 나름 선방했던 문제였다.
+> - 시간은 많이 걸리지만 코딩 초보에게는 직접 손으로 queue와 배열를 써가면서 차근차근 디버깅 해보는게 코드 자체를 제대로 이해하는데는 좋은 것 같다. 그래도 나름 선방했던 문제였다.   
 
    
 # 불!
@@ -118,5 +118,83 @@ void BFS(int x)
 
 - 'BFS'
 ```c++
+void fire_time(int a, int b)
+{
+	while (q.empty() == 0)
+	{
+		int q_size = q.size();
+		for (int j = 0; j < q_size; j++)
+		{
+			int x = q.front().first;
+			int y = q.front().second;
+			q.pop();
 
+			for (int i = 0; i < 4; i++)
+			{
+				int nx = x + dx[i];
+				int ny = y + dy[i];
+
+				if (nx >= 0 && ny >= 0 && nx < R && ny < C)
+				{
+					if (map[nx][ny] != '#')
+					{
+						if (fire_map[nx][ny] > fire_map[x][y] + 1)
+						{
+							fire_map[nx][ny] = fire_map[x][y] + 1;
+							q.push(make_pair(nx, ny));
+						}
+					}
+				}
+			}
+		}
+	}
+}
 ```
+> - 불이 퍼지는데 걸리는 시간을 각 위치에 나타내는 fire_map을 구하는 함수이다.
+> - BFS를 사용하여 초기 불의 위치에서 시간이 지남에 따라 불이 퍼지는 시간을 구했다.
+
+```c++
+int move(int a, int b)
+{
+	queue<pair<pair<int, int>, int>> q2;
+	q2.push(make_pair(make_pair(a, b), 0));
+	check[a][b] = true;
+
+	while (q2.empty() == 0)
+	{
+		int x = q2.front().first.first;
+		int y = q2.front().first.second;
+		int cnt = q2.front().second;
+		q2.pop();
+
+		if (x == 0 || y == 0 || x == R - 1 || y == C - 1)
+			return cnt + 1;
+
+		for (int i = 0; i < 4; i++)
+		{
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+
+			if (nx >= 0 && ny >= 0 && nx < R && ny < C)
+			{
+				if (map[nx][ny] != '#' && check[nx][ny] == false)
+				{
+					if (fire_map[nx][ny] > cnt + 1)
+					{
+						check[nx][ny] = true;
+						q2.push(make_pair(make_pair(nx, ny), cnt + 1));
+					}
+				}
+			}
+		}
+	}
+	return -1;
+}
+```
+> - 지훈이가 초기 위치에서 불이 퍼지는 시간보다 빨리 탈출하는 시간을 구하는 함수이다.
+> - 마찬가지로 BFS를 사용했으며, 지훈이의 초기 위치와 이동하는 칸까지의 거리(시간)를 이중 pair로 엮어서 queue에 기록했다.
+   
+> - main 함수에서는 미로를 입력받고, fire_time함수와 move함수를 실행하여 지훈이의 탈출 유무와 탈출시간을 출력한다.
+
+- 불이 퍼지는 이차원배열과 지훈이의 이차원배열, 그리고 체크를 위한 bool 이차원배열 3개를 써야한다는 것 까지는 파악했으나 불이 퍼지는 속도에 따라 queue에 기록하는 과정에서 해결하지 못하고 결국 인터넷의 풀이를 참고했다.
+- 아직까진 골드단계는 무리가 있는것으로 보이고, 개인적인 공부가 더 필요하다고 판단됨.
