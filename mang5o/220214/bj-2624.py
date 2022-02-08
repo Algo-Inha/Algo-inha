@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/2624
+# 동전 바꿔주기
 
 # 어이없게도 sys.stdin 변환으로 타임아웃 해결
 # 엄청난 시간초과 제출의 향연
@@ -15,7 +16,6 @@ for i in range(now_in):
 wallet.sort(reverse=True, key=lambda money: money[0])
 dp_table = [[0 for _ in range(now_val + 1)] for _ in range(now_in + 1)]
 dp_table[0][0] = 1
-# print(dp_table)
 for i in range(now_in):
     for j in range(now_val + 1):
         # now_cursor -> dp_table[i+1][j]

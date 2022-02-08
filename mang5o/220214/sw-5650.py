@@ -1,4 +1,5 @@
 # https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo&
+# 핀볼 게임
 from queue import Queue
 
 direction_arr = [  # 오 아래 왼 위

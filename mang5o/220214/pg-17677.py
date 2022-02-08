@@ -1,7 +1,6 @@
 # https://programmers.co.kr/learn/courses/30/lessons/17677
+# 뉴스 클러스터링
 import math
-
-
 def solution(str1, str2):
     str1 = str1.lower()
     str2 = str2.lower()
@@ -31,10 +30,7 @@ def solution(str1, str2):
         answer = 65536
     else:
         answer = math.floor(65536 * (len(and_set) / len(or_set)))
-    # print(str1_set)
-    # print(str2_set)
     return answer
-
 
 print(solution("FRANCE", 'french'))
 print(solution("handshake", 'shake hands'))

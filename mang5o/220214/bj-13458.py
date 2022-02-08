@@ -1,4 +1,6 @@
 # https://www.acmicpc.net/problem/13458
+# 시험 감독
+
 import math
 N = int(input())
 persons = list(map(int, input().split()))

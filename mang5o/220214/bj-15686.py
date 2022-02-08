@@ -1,4 +1,6 @@
 # https://www.acmicpc.net/problem/15686
+# 치킨 배달
+
 import sys, itertools
 
 N, M = map(int, sys.stdin.readline().rstrip().split())
