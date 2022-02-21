@@ -7,6 +7,8 @@
 // 이어서 그 수만큼 한 줄에 한 쌍씩 네트워크 상에서 직접 연결되어 있는 컴퓨터의 번호 쌍이 주어진다.
 
 
+//정말 설명이 잘되어있는 https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html 요 링크를 꼭 기억하자
+
 #include <iostream>
 
 using namespace std;
