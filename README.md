@@ -4,16 +4,24 @@
 <details>
   <summary>Click to expand!</summary>
   
-  ### 220221
-  + [감시 카메라](https://www.acmicpc.net/problem/5884)  
-  + [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)  
-  + [빗물](https://www.acmicpc.net/problem/14719)  
-  + [바이러스](https://www.acmicpc.net/problem/2606)  
-  + [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  
-  + [피아노 체조](https://www.acmicpc.net/problem/21318)  
-  
+   ### 220228
++ [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)  
++ [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335)  
++ [연구소 3](https://www.acmicpc.net/problem/17142)  
++ [이항 계수 2](https://www.acmicpc.net/problem/11051)  
++ [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)  
++ [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)  
+
 <details>
   <summary>이전 주 문제들!</summary>
+  
+ ### 220221
++ [감시 카메라](https://www.acmicpc.net/problem/5884)  
++ [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)  
++ [빗물](https://www.acmicpc.net/problem/14719)  
++ [바이러스](https://www.acmicpc.net/problem/2606)  
++ [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  
++ [피아노 체조](https://www.acmicpc.net/problem/21318)  
   
  ### 220214
 + [동전 바꿔주기](https://www.acmicpc.net/problem/2624)  
