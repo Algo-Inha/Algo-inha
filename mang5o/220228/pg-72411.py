@@ -5,8 +5,8 @@ import itertools
 def solution(orders, course):
     order_dict = [dict() for i in range(len(course))]
     for i in orders:
-        # 진짜 개악질인게 주문 order는 오름차순이 아님
-        # 그거도 잡아줘야함
+        # 진짜 악질인게 주문 order는 오름차순이 아님
+        # 그 부분도 잡아줘야함
         now_orders = []
         for j in i:
             now_orders.append(j)
