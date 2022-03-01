@@ -22,6 +22,7 @@ const isPrime = (num) => {
     return false;
   }
   for (let i = 2; i <= Math.sqrt(num); i++) {
+    // 제곱근 까지를 의미합니다.
     if (num % i === 0) {
       return false;
     }
