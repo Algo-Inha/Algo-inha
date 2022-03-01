@@ -4,16 +4,24 @@
 <details>
   <summary>Click to expand!</summary>
   
-   ### 220228
+   ### 220307
++ [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)  
++ [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/92335)  
++ [벽 부수고 이동하기](https://programmers.co.kr/learn/courses/30/lessons/17681)  
++ [미세먼지 안녕!](https://www.acmicpc.net/problem/2206)  
++ [상어 초등학교](https://www.acmicpc.net/problem/17144)  
+  
+<details>
+  <summary>이전 주 문제들!</summary>
+
+### 220228
 + [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)  
 + [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335)  
 + [연구소 3](https://www.acmicpc.net/problem/17142)  
 + [이항 계수 2](https://www.acmicpc.net/problem/11051)  
 + [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)  
 + [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)  
-
-<details>
-  <summary>이전 주 문제들!</summary>
+  
   
  ### 220221
 + [감시 카메라](https://www.acmicpc.net/problem/5884)  
