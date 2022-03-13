@@ -90,3 +90,10 @@ set_object.remove(3) # Error
 ```python
 print(list(range(3,5))) # 출력 3,4
 ```
+
+## compare string
+```python
+a = "abcde"
+if a[2]=="c": # 단순히 ==로 사용
+    print("OKAY")
+```
