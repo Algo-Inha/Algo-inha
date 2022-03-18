@@ -54,6 +54,9 @@ print(tmp_c)           # [3, 4, 5, 6, 7, 8]
 print(tmp_d)           # [3, 5]
 print(tmp_e)           # [3, 4, 5, 6]
 print(tmplist[-2])     # 7
+
+tmplist.insert(5,11)   # 5번 인덱스에 11을 삽입
+del tmplist[2]         # 2번 인덱스 원소를 삭제
 ```
 
 ## dict
@@ -96,4 +99,29 @@ print(list(range(3,5))) # 출력 3,4
 a = "abcde"
 if a[2]=="c": # 단순히 ==로 사용
     print("OKAY")
+```
+
+## List sorting
+```python
+list_tmp = [[0,"A"],[4,"B"],[2,"C"]]
+list_tmp.sort(key = lambda x : x[0])
+```
+
+## Bisect sorting
+```python
+import bisect
+list_tmp = [1,56,3,4,3,2,553]
+list_tmp.sort() # 오름차순 정렬
+print(bisect.bisect_left(list_tmp,33)) # 33을 넣을때 33중 왼쪽의 인덱스
+print(bisect.bisect_right(list_tmp,33)) # 33을 넣을때 33중 오른쪽의 인덱스
+```
+
+## heapQ
+```python
+import heapq
+heap_q = [1,2,3,444,11,2]
+heapq.heapify(heap_q)
+
+heapq.heappush(heap_q, 33) # insert
+smallest = heapq.heappop(heap_q) # 최소원소
 ```
