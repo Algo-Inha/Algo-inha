@@ -1,3 +1,5 @@
+//https://programmers.co.kr/learn/courses/30/lessons/64064
+//불량 사용자
 from itertools import permutations
 
 def check(users, banned_id):
