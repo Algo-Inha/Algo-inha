@@ -4,15 +4,21 @@
 <details>
   <summary>Click to expand!</summary>
   
-   ### 220321
+   ### 220328
++ [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)  
++ [어항 정리](https://www.acmicpc.net/problem/23291)  
++ [종이 조각](https://www.acmicpc.net/problem/14391)  
++ [N-Queen](https://www.acmicpc.net/problem/9663)  
+  
+<details>
+  <summary>이전 주 문제들!</summary>
+  
+### 220321
 + [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)  
 + [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)  
 + [달력](https://www.acmicpc.net/problem/20207)  
 + [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)  
 + [보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo&categoryId=AWXRUN9KfZ8DFAUo&categoryType=CODE&&&)
-  
-<details>
-  <summary>이전 주 문제들!</summary>
   
 ### 220314
 + [카카오 프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)  
