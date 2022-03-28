@@ -1,5 +1,8 @@
-#include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
+
+using namespace std;
+
 
 int count = 0;
 int n;
@@ -37,8 +40,8 @@ void nQueen(int cdx) {
 
 int main() {
 
-	scanf("%d", &n);
+	cin >>n;
 	nQueen(0);
-	printf("%d", count);
+	cout <<count ;
 
 }
