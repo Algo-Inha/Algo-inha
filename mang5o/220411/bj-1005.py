@@ -1,10 +1,7 @@
 # https://www.acmicpc.net/problem/1005
 # ACM Craft
 
-# 1번은 먼저 만들수 있다는 조건이 문제에 없음
-# 근데 그렇게 생각해야 풀 수 있는것 같음
 import sys
-
 T = int(sys.stdin.readline().rstrip())
 overall_result = []
 for all_step in range(T):
