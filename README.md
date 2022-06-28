@@ -6,7 +6,7 @@
   
 ### 220705
 + [나무 자르기](https://www.acmicpc.net/problem/2805)  
-+ [시그널](https://www.acmicpc.net/problem/2805)  
++ [시그널](https://www.acmicpc.net/problem/16113)  
 + [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)  
 + [후보 추천하기](https://www.acmicpc.net/problem/1713)  
 + [DFS와 BFS](https://www.acmicpc.net/problem/1260)  
