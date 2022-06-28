@@ -4,16 +4,22 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220705
++ [나무 자르기](https://www.acmicpc.net/problem/2805)  
++ [시그널](https://www.acmicpc.net/problem/2805)  
++ [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)  
++ [후보 추천하기](https://www.acmicpc.net/problem/1713)  
++ [DFS와 BFS](https://www.acmicpc.net/problem/1260)  
+  
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 220607
 + [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)  
 + [절댓값 힙](https://www.acmicpc.net/problem/11286)  
 + [줄 서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936)  
 + [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)
-  
-
-  
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 220524
 + [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)  
