@@ -4,16 +4,23 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220712
++ [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)  
++ [랜선 자르기](https://www.acmicpc.net/problem/1654)  
++ [124 나라의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12899)  
++ [좌표압축](https://www.acmicpc.net/problem/18870)  
++ [잃어버린 괄호](https://www.acmicpc.net/problem/1541)    
+  
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 220705
 + [나무 자르기](https://www.acmicpc.net/problem/2805)  
 + [시그널](https://www.acmicpc.net/problem/16113)  
 + [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)  
 + [후보 추천하기](https://www.acmicpc.net/problem/1713)  
 + [DFS와 BFS](https://www.acmicpc.net/problem/1260)  
-  
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 220607
 + [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)  
