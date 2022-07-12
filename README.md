@@ -21,6 +21,17 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220719
++ [괄호의 값](https://www.acmicpc.net/problem/2504)  
++ [퇴사2](https://www.acmicpc.net/problem/15486)  
++ [테트로미노](https://www.acmicpc.net/problem/14500)  
++ [Puyo Puyo](https://www.acmicpc.net/problem/11559)  
++ [베르트랑 공중](https://www.acmicpc.net/problem/4948)    
+  
+
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 220712
 + [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)  
 + [랜선 자르기](https://www.acmicpc.net/problem/1654)  
@@ -28,10 +39,6 @@
 + [좌표압축](https://www.acmicpc.net/problem/18870)  
 + [잃어버린 괄호](https://www.acmicpc.net/problem/1541)    
   
-
-<details>
-  <summary>이전 주 문제들!</summary>
-
 ### 220705
 + [나무 자르기](https://www.acmicpc.net/problem/2805)  
 + [시그널](https://www.acmicpc.net/problem/16113)  
