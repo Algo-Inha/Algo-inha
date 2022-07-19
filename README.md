@@ -21,16 +21,23 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220726
++ [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)  
++ [다리놓기](https://www.acmicpc.net/problem/1010)  
++ [기타리스트](https://www.acmicpc.net/problem/1495)  
++ [리모컨](https://www.acmicpc.net/problem/1107)  
++ [킹](https://www.acmicpc.net/problem/1063)    
+  
+
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 220719
 + [괄호의 값](https://www.acmicpc.net/problem/2504)  
 + [퇴사2](https://www.acmicpc.net/problem/15486)  
 + [테트로미노](https://www.acmicpc.net/problem/14500)  
 + [Puyo Puyo](https://www.acmicpc.net/problem/11559)  
-+ [베르트랑 공중](https://www.acmicpc.net/problem/4948)    
-  
-
-<details>
-  <summary>이전 주 문제들!</summary>
++ [베르트랑 공중](https://www.acmicpc.net/problem/4948)      
   
 ### 220712
 + [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)  
