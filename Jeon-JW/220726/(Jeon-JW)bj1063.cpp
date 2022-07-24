@@ -1,5 +1,5 @@
 //https://www.acmicpc.net/problem/1063
-//ŷ
+//킹
 #include<iostream>
 #include<algorithm>
 #include<vector>
