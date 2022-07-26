@@ -21,16 +21,22 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220802
++ [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302)  
++ [회의실 배정](https://www.acmicpc.net/problem/1931)  
++ [타일 채우기](https://www.acmicpc.net/problem/2133)  
++ [단지번호붙이기](https://www.acmicpc.net/problem/2667)  
++ [안전 영역](https://www.acmicpc.net/problem/2468)    
+  
+
+<details>
+  <summary>이전 주 문제들!</summary>
 ### 220726
 + [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)  
 + [다리놓기](https://www.acmicpc.net/problem/1010)  
 + [기타리스트](https://www.acmicpc.net/problem/1495)  
 + [리모컨](https://www.acmicpc.net/problem/1107)  
 + [킹](https://www.acmicpc.net/problem/1063)    
-  
-
-<details>
-  <summary>이전 주 문제들!</summary>
   
 ### 220719
 + [괄호의 값](https://www.acmicpc.net/problem/2504)  
