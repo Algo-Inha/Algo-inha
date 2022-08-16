@@ -21,15 +21,22 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220823
++ [숨바꼭질](https://www.acmicpc.net/problem/1697)
++ [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303)
++ [체스판 위의 공](https://www.acmicpc.net/problem/16957)
++ [줄어들지 않아](https://www.acmicpc.net/problem/2688)
++ [쇠막대기](https://www.acmicpc.net/problem/10799)
+
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 220816
 + [무기 공학](https://www.acmicpc.net/problem/18430)
 + [기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979)
 + [외계인의 기타 연주](https://www.acmicpc.net/problem/2841)
 + [쿼드압축 후 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/68936)
-+ [요세푸스 문제](https://www.acmicpc.net/problem/1158)
-
-<details>
-  <summary>이전 주 문제들!</summary>
++ [요세푸스 문제](https://www.acmicpc.net/problem/1158)  
   
 ### 220809
 + [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)  
