@@ -21,15 +21,22 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220830
++ [상급이의 여행](https://www.acmicpc.net/problem/9372)
++ [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
++ [탑](https://www.acmicpc.net/problem/2493)
++ [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
++ [소수&팰린드롬](https://www.acmicpc.net/problem/1747)
+
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 220823
 + [숨바꼭질](https://www.acmicpc.net/problem/1697)
 + [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303)
 + [체스판 위의 공](https://www.acmicpc.net/problem/16957)
 + [줄어들지 않아](https://www.acmicpc.net/problem/2688)
 + [쇠막대기](https://www.acmicpc.net/problem/10799)
-
-<details>
-  <summary>이전 주 문제들!</summary>
   
 ### 220816
 + [무기 공학](https://www.acmicpc.net/problem/18430)
