@@ -34,3 +34,19 @@ def dfs(x, y, max_row, max_col):
                 q.append(ny, nx)
                 temp[ny][nx] = True
 ```
+
+
+## Linked list
+```python
+class Node:
+    def __init__(self):
+        self.prev = -1 # 이전 노드 인덱스
+        self.next = -1 # 다음 노드 인덱스
+        self.is_delete = False # 삭제 여부
+
+# 링크드리스트 초기화
+node_list = [Node() for _ in range(n)] # 노드 리스트 생성
+for i in range(n - 1):
+    node_list[i].next = i + 1 # i 번째 노드의 next는 i+1
+    node_list[i + 1].prev = i # i+1 번째 노드의 prev는 i
+```
