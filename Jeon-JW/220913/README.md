@@ -152,33 +152,27 @@ int solution(string skill, vector<string> skill_trees) {
 https://school.programmers.co.kr/learn/courses/30/lessons/86491
 - `구현`
 ```c++
-//가능한 개수
-int solution(string skill, vector<string> skill_trees) {
+int solution(vector<vector<int>> sizes) {
     int answer = 0;
+    int height = 0; // 높이
+    int width = 0; // 가로
 
-    for (int i = 0; i < skill_trees.size(); i++) {
-        temp = "";
-        flag = 0;
-        for (int j = 0; j < skill_trees[i].length(); j++) {
-            for (int k = 0; k < skill.length(); k++) {
-                if (skill_trees[i][j] == skill[k]) {
-                    temp += skill[k];
-                }
-            }
+    for (int i = 0; i < sizes.size(); i++)
+    {
+        if (sizes[i][0] > sizes[i][1])
+        {
+            height = max(height, sizes[i][0]);
+            width = max(width, sizes[i][1]);
         }
-
-        for (int j = 0; j < temp.length(); j++) {
-            if (temp[j] != skill[j]) {
-                flag = 1;
-                break;
-            }
+        else
+        {
+            height = max(height, sizes[i][1]);
+            width = max(width, sizes[i][0]);
         }
-
-        if (!flag) answer++;
 
     }
 
-
+    answer = height * width;
     return answer;
 }
 ```
