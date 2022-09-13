@@ -21,16 +21,22 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220920
++ [동전 1](https://www.acmicpc.net/problem/2293)
++ [로또](https://www.acmicpc.net/problem/6603)
++ [주사위 굴리기](https://www.acmicpc.net/problem/14499)
++ [퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)
+
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 220913
 + [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993)
 + [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
 + [골드바흐의 추측](https://www.acmicpc.net/problem/9020)
 + [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
 + [구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
-
-
-<details>
-  <summary>이전 주 문제들!</summary>
   
 ### 220830
 + [상급이의 여행](https://www.acmicpc.net/problem/9372)
