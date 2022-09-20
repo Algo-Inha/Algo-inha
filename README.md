@@ -21,15 +21,23 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 220927
++ [파일 합치기](https://www.acmicpc.net/problem/11066)
++ [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
++ [듣보잡](https://www.acmicpc.net/problem/1764)
++ [나이트의 이동](https://www.acmicpc.net/problem/7562)
++ [올림픽](https://www.acmicpc.net/problem/8979)
++ [계란으로 계란치기](https://www.acmicpc.net/problem/16987)
+
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 220920
 + [동전 1](https://www.acmicpc.net/problem/2293)
 + [로또](https://www.acmicpc.net/problem/6603)
 + [주사위 굴리기](https://www.acmicpc.net/problem/14499)
 + [퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021)
-
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 220913
 + [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993)
