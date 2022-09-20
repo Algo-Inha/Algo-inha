@@ -125,3 +125,8 @@ heapq.heapify(heap_q)
 heapq.heappush(heap_q, 33) # insert
 smallest = heapq.heappop(heap_q) # 최소원소
 ```
+
+## join
+```python
+output_str = 'a'.join(['b','c','d']) # -> 'bacad'
+```
