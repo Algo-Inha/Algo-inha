@@ -21,6 +21,17 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 221004
++ [에너지 모으기](https://www.acmicpc.net/problem/16198)
++ [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
++ [전깃줄](https://www.acmicpc.net/problem/2565)
++ [테트리스](https://www.acmicpc.net/problem/3019)
++ [두 박스](https://www.acmicpc.net/problem/15973)
+
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 220927
 + [파일 합치기](https://www.acmicpc.net/problem/11066)
 + [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924)
@@ -29,9 +40,6 @@
 + [올림픽](https://www.acmicpc.net/problem/8979)
 + [계란으로 계란치기](https://www.acmicpc.net/problem/16987)
 
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 220920
 + [동전 1](https://www.acmicpc.net/problem/2293)
