@@ -21,16 +21,23 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 221101
++ [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
++ [시그널](https://www.acmicpc.net/problem/16113)
++ [회문](https://www.acmicpc.net/problem/17609)
++ [iSharp](https://www.acmicpc.net/problem/3568)
++ [봄버맨](https://www.acmicpc.net/problem/16918)
+
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 221004
 + [에너지 모으기](https://www.acmicpc.net/problem/16198)
 + [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 + [전깃줄](https://www.acmicpc.net/problem/2565)
 + [테트리스](https://www.acmicpc.net/problem/3019)
 + [두 박스](https://www.acmicpc.net/problem/15973)
-
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 220927
 + [파일 합치기](https://www.acmicpc.net/problem/11066)
