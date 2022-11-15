@@ -21,15 +21,22 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 221122
++ [감소하는 수](https://www.acmicpc.net/problem/1038)
++ [흙길 보수하기](https://www.acmicpc.net/problem/1911)
++ [오르막 수](https://www.acmicpc.net/problem/11057)
++ [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+
+
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 221108
 + [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
 + [파이프 옮기기 1](https://www.acmicpc.net/problem/17070)
 + [사탕 게임](https://www.acmicpc.net/problem/3085)
 + [안녕](https://www.acmicpc.net/problem/1535)
 + [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888)
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 221101
 + [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
