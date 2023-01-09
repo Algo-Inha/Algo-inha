@@ -21,6 +21,16 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 230116
++ [정사각형](https://www.acmicpc.net/problem/1485)
++ [랭킹전 대기열](https://www.acmicpc.net/problem/20006)
++ [게임](https://www.acmicpc.net/problem/1072)
++ [N과 M(1)](https://www.acmicpc.net/problem/15649)
++ [배열 돌리기1](https://www.acmicpc.net/problem/16926)
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 230109
 + [경로 찾기](https://www.acmicpc.net/problem/11403)
 + [수리공 항승](https://www.acmicpc.net/problem/1449)
@@ -28,8 +38,6 @@
 + [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)
 + [회의실 배정 2](https://www.acmicpc.net/problem/19621)
 
-<details>
-  <summary>이전 주 문제들!</summary>
 ### 230104
 + [NBA 농구](https://www.acmicpc.net/problem/2852)
 + [동전 0](https://www.acmicpc.net/problem/11047)
