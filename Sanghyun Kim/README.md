@@ -50,3 +50,21 @@ for i in range(n - 1):
     node_list[i].next = i + 1 # i 번째 노드의 next는 i+1
     node_list[i + 1].prev = i # i+1 번째 노드의 prev는 i
 ```
+
+
+## 플로이드-워셜 알고리즘
+모든 노드 간 최단 경로를 구하는 알고리즘
+```python
+for k in range(n): #경로 for문이 가장 상위 단계여야 누락되지 않는다
+    for i in range(n):
+        for j in range(n): 
+            if graph[i][j] == 1 or (graph[i][k] == 1 and graph[k][j] == 1):
+                graph[i][j] = 1
+```
+
+
+## 파이썬 최대 정수
+```python
+import sys
+print(sys.maxsize)
+```
