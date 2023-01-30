@@ -21,15 +21,21 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 230206
++ [청소년 상어](https://www.acmicpc.net/problem/19236)
++ [빗물](https://www.acmicpc.net/problem/14719)
++ [떡 먹는 호랑이](https://www.acmicpc.net/problem/2502)
++ [꽃길](https://www.acmicpc.net/problem/14620)
+
+<details>
+  <summary>이전 주 문제들!</summary>
+  
 ### 230123
 + [센서](https://www.acmicpc.net/problem/2212)
 + [효율적인 해킹](https://www.acmicpc.net/problem/1325)
 + [물병](https://www.acmicpc.net/problem/1052)
 + [N과 M(12)](https://www.acmicpc.net/problem/15666)
 + [투에-모스 문자열](https://www.acmicpc.net/problem/18222)
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 230116
 + [정사각형](https://www.acmicpc.net/problem/1485)
@@ -328,7 +334,7 @@ PR 제목에 상관없이 요청합니다. Merge는 지정된 Approve의 수를 
 
 ## Schedule
 
-- 현재 회의는 매주**수요일 오후 9시** 입니다. (팀원과의 스케줄 조정으로 요일은 바뀔 수 있습니다)
+- 현재 회의는 매주**요일 오후 9시** 입니다. (팀원과의 스케줄 조정으로 요일은 바뀔 수 있습니다)
 - 회의날 오전 8시까지 문제 풀이 내용을 모두 정리해서 PR을 진행합니다.
 - 회의 시간 이전까지 모든 이의 코드를 읽고 리뷰를 진행합니다. Approve를 포함합니다.
 - 회의 시간 직전 본인의 PR에 들어온 Comment 들을 파악합니다. 질문 등에 대해선 회의 이전 답을 생각해봅니다.
