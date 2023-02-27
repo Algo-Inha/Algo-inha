@@ -21,14 +21,20 @@
 <details>
   <summary>Click to expand!</summary>
   
+### 230306
++ [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
++ [부등호](https://www.acmicpc.net/problem/2529)
++ [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
++ [자두나무](https://www.acmicpc.net/problem/2240)
+
+<details>
+  <summary>이전 주 문제들!</summary>
+
 ### 230220
 + [틱택토](https://www.acmicpc.net/problem/7682)
 + [용액](https://www.acmicpc.net/problem/2467)
 + [수 묶기](https://www.acmicpc.net/problem/1744)
 + [상어 초등학교](https://www.acmicpc.net/problem/21608)
-
-<details>
-  <summary>이전 주 문제들!</summary>
 
 ### 230206
 + [청소년 상어](https://www.acmicpc.net/problem/19236)
