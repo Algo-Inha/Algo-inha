@@ -1,6 +1,6 @@
 ﻿
 # 문제풀이
-## 정사각형
+## 부등호
 https://www.acmicpc.net/problem/2529 
 ```c++
 void back(int cur) {
